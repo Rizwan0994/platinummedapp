@@ -1,0 +1,56 @@
+.appBar {
+    z-index: 1100;
+    transition: margin 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+    background-color: white;
+  }
+  
+  .appBarShift {
+    transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms, margin 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+  }
+
+  .menuButton {
+    margin-right: 16px;
+  }
+
+  
+  
+.hide {
+    display: none;
+  }
+  
+  .iconButton{
+    font-size: 2rem;
+    margin: 2px;
+    margin-left: 4px;
+    
+  }
+
+  
+  /* header bar style */
+
+  header.css-11b3ww9-MuiPaper-root-MuiAppBar-root
+  {
+    background-color: white;
+    padding-top: 10px;
+  }
+  /* div.css-1g91zn9-MuiTypography-root
+  {
+   margin-right: 25px;
+   color: #012970;
+   font-size: 22px;
+   font-weight: 700;
+   font-family: "Nunito",sans-serif
+  } */
+  
+  button.css-184mzhy-MuiButtonBase-root-MuiIconButton-root {
+    color: #012970;
+    margin: 2px;
+    margin-left: 10px;
+    font-size: 32px;
+  }
+  div.css-84xlol-MuiTypography-root{
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Nunito",sans-serif;
+    color: #012970;
+  }

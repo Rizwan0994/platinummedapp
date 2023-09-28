@@ -1,0 +1,17 @@
+.button-container {
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px;
+    color: #012970;
+    border: 2px solid #012970;
+    border-radius: 2%;
+    cursor: pointer;
+  }
+  
+  .button-container:hover {
+    background-color: #012970;
+    color: #fff;
+  }
+  

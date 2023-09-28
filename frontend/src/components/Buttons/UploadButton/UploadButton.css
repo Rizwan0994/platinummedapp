@@ -1,0 +1,22 @@
+.upload-button {
+    background-color: transparent !important;
+    color: #3498db !important;
+    border: 2px solid rgb(52, 152, 219) !important;
+    padding: 1.1em 0px 1.1em 2.0em !important;
+    position: relative !important;
+    z-index: 1 !important;
+    transition: color 250ms ease-in-out 0s !important;
+    width: 220px !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    font-weight: 700 !important;
+    font-size: 1.0rem !important;
+    border-radius: 6px !important;
+    overflow: hidden !important;
+  }
+  
+  .upload-button:hover {
+    background-color: rgb(52, 152, 219) !important;
+    color: white !important;
+  }
+  

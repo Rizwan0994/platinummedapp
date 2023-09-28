@@ -1,0 +1,54 @@
+/* Styles for the drawer */
+.drawer {
+   
+    z-index: 1;
+    
+   
+  }
+  
+  .drawerPaper {
+    width: 240px;
+  }
+  
+  .drawerHeader {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    /* necessary for content to be below app bar */
+    min-height: 64px;
+    justify-content: flex-end;
+  }
+  
+/* side bar styel*/
+  .css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    margin-top:75px;
+    color:#012970;
+    
+  }
+  .css-h4y409-MuiList-root{
+    color:#012970;
+    font-size: 90px;
+  }
+ 
+  
+
+  /*menu list button style*/
+  div.css-cveggr-MuiListItemIcon-root{
+    color:rgba(1, 41, 112, 1);
+  }
+  
+
+  span.css-10hburv-MuiTypography-root{
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  /* pop over ul list style*/
+  .ul-style{
+    font-size: 2rem;
+    color: #012970;
+    font-weight: 600;
+  }
+
+
+  

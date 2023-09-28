@@ -1,0 +1,79 @@
+/* Pagination Container */
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  /* Pagination Buttons */
+  .pagination-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination-button:hover {
+    background-color: #2a77b1;
+  }
+  
+  /* Active Button */
+  .pagination-button.active {
+    background-color: #ff5733;
+  }
+  
+  /* Page Info */
+  .pagination-page-info {
+    margin: 0 10px;
+  }
+  
+  /* Rows Per Page Dropdown */
+  .pagination-rows-per-page {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    display: none;
+    min-width: 50px;
+  }
+  
+  .dropdown-content div {
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-content div:hover {
+    background-color: #f0f0f0;
+  }
+  
