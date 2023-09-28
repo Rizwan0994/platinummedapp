@@ -129,7 +129,7 @@ const Example = () => {
   const [apiData, setApiData] = useState([]);
   
   useEffect(() => {
-    axios.get('http://localhost:5000/api/v1/auth/all')
+    axios.get('http://platinummedapp.com/users/all')  //http://localhost:5000/api/v1/auth/all
       .then((response) => {
         setApiData(response.data); // Store API data in state
       })
