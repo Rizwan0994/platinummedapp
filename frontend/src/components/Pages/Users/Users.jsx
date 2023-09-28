@@ -127,9 +127,10 @@ import { MaterialReactTable } from 'material-react-table';
 
 const Example = () => {
   const [apiData, setApiData] = useState([]);
-  
+  const apiRoot = process.env.REACT_APP_API_ROOT;
+  console.log(apiRoot);
   useEffect(() => {
-    axios.get('http://platinummedapp.com/users/all')  //http://localhost:5000/api/v1/auth/all
+    axios.get(`${apiRoot}/api/v1/auth/all`) 
       .then((response) => {
         setApiData(response.data); // Store API data in state
       })

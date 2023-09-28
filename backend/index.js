@@ -10,6 +10,11 @@ app.use(cors())
 app.use(express.json());
 const PORT= 5000;
 
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    next();
+  });
+  
 app.use("/api/v1/auth", authRoutes);
 
 app.get('/', (req, res) => {
